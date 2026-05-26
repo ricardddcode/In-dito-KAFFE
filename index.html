@@ -485,7 +485,8 @@ function prodImgHtml(p) {
 }
 function renderProducts() {
   const q = ($('search-input').value || '').toLowerCase();
-const visible = products;const filtered = visible.filter(p => {    const matchQ = !q || p.name.toLowerCase().includes(q) || (p.description || '').toLowerCase().includes(q) || (p.category || '').toLowerCase().includes(q);
+const visible = products;
+const filtered = visible.filter(p => {    const matchQ = !q || p.name.toLowerCase().includes(q) || (p.description || '').toLowerCase().includes(q) || (p.category || '').toLowerCase().includes(q);
     const matchF = activeFilter === 'all' || p.category === activeFilter;
     return matchQ && matchF;
   });
@@ -620,9 +621,10 @@ function showAdminPanel() {
 // ============================================================
 //  ADMIN — CATÁLOGO
 // ============================================================
-function updateKPIs() {
 
   // Actualiza disponibilidad automáticamente
+function updateKPIs() {
+
   products.forEach(p => {
     p.available = p.stock > 0;
   });
