@@ -29,7 +29,7 @@
     .brand{display:flex;align-items:center;gap:10px}
     .brand-icon{width:36px;height:36px;border-radius:50%;overflow:hidden;background:var(--gold);display:flex;align-items:center;justify-content:center}
     .brand-icon img{width:100%;height:100%;object-fit:cover}
-    .brand-text{font-family:var(--font-display);font-size:24px;letter-spacing:0px;color:var(--cream);font-weight:700}
+    .brand-text{font-family:var(--font-display);font-size:24px;color:var(--cream);font-weight:700}
     .brand-text em{color:var(--gold);font-style:normal}
     .nav{display:flex;gap:4px}
     .nav-btn{display:flex;align-items:center;gap:7px;padding:7px 14px;border-radius:22px;border:none;font-family:var(--font-body);font-size:13px;font-weight:500;cursor:pointer;transition:all .18s;background:transparent;color:var(--text2)}
@@ -40,7 +40,7 @@
     .hero{position:relative;overflow:hidden;background:linear-gradient(135deg,#0D1F1A 0%,#1A3529 50%,#0D1F1A 100%);padding:64px 24px 52px;text-align:center}
     .hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 60% 40%,rgba(201,147,58,.12) 0%,transparent 60%)}
     .hero-tag{display:inline-block;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--gold);border:1px solid var(--border2);border-radius:20px;padding:5px 14px;margin-bottom:20px;font-family:'Cinzel',serif}
-    .hero h1{font-family:var(--font-display);font-size:clamp(56px,10vw,100px);letter-spacing:0px;line-height:1;color:var(--cream);margin-bottom:8px;font-weight:700;text-shadow:0 2px 20px rgba(201,147,58,.18)}
+    .hero h1{font-family:var(--font-display);font-size:clamp(56px,10vw,100px);line-height:1;color:var(--cream);margin-bottom:8px;font-weight:700;text-shadow:0 2px 20px rgba(201,147,58,.18)}
     .hero h1 span{color:var(--gold)}
     .hero-sub{font-family:var(--font-serif);font-style:italic;font-size:16px;color:var(--text2);margin-bottom:28px}
     .hero-search{display:flex;max-width:420px;margin:0 auto;background:rgba(255,255,255,.05);border:1px solid var(--border2);border-radius:30px;overflow:hidden}
@@ -63,7 +63,7 @@
     .prod-img .stock-badge{position:absolute;top:8px;right:8px;font-size:10px;font-weight:600;padding:3px 9px;border-radius:10px;z-index:1}
     .prod-body{padding:16px}
     .prod-cat{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:5px;font-family:'Cinzel',serif}
-    .prod-name{font-family:var(--font-display);font-size:22px;letter-spacing:0px;color:var(--cream);margin-bottom:3px;line-height:1.2;font-weight:700}
+    .prod-name{font-family:var(--font-display);font-size:22px;color:var(--cream);margin-bottom:3px;line-height:1.2;font-weight:700}
     .prod-sub{font-family:var(--font-serif);font-style:italic;font-size:12px;color:var(--text3);margin-bottom:8px}
     .prod-desc{font-size:12px;color:var(--text2);margin-bottom:12px;line-height:1.5}
     .prod-footer{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px}
@@ -107,11 +107,10 @@
     .form-row select:focus,.form-row input:focus{border-color:var(--gold)}
     .ship-result{display:flex;justify-content:space-between;align-items:center;padding-top:10px;border-top:1px solid var(--border);margin-top:6px}
     .ship-cost{font-family:'Cinzel',serif;font-size:20px;color:var(--gold);letter-spacing:1px}
-    /* ---- LOGIN ---- */
     .login-wrap{max-width:400px;margin:60px auto;padding:0 16px}
     .login-card{background:var(--card);border-radius:var(--r-lg);border:1px solid var(--border2);padding:40px;box-shadow:var(--shadow-lg)}
     .login-logo{text-align:center;margin-bottom:28px}
-    .login-logo span{font-family:var(--font-display);font-size:34px;color:var(--cream);letter-spacing:0px;font-weight:700}
+    .login-logo span{font-family:var(--font-display);font-size:34px;color:var(--cream);font-weight:700}
     .login-logo em{color:var(--gold);font-style:normal}
     .login-logo p{font-size:13px;color:var(--text3);margin-top:6px}
     .login-divider{width:40px;height:2px;background:var(--gold);margin:14px auto 0;border-radius:2px}
@@ -123,7 +122,6 @@
     .btn-login{width:100%;padding:13px;background:var(--gold);color:var(--bg);border:none;border-radius:var(--r);font-family:'Cinzel',serif;font-size:14px;letter-spacing:3px;cursor:pointer;transition:background .15s;margin-top:8px;font-weight:600}
     .btn-login:hover{background:var(--gold2)}
     .login-err{background:var(--danger-bg);color:var(--danger);border-radius:var(--r);padding:10px 13px;font-size:13px;margin-bottom:14px;display:none;border:1px solid rgba(248,113,113,.2)}
-    /* ---- ADMIN ---- */
     .admin-wrap{max-width:1100px;margin:0 auto;padding:24px 20px}
     .admin-subnav{display:flex;gap:6px;margin-bottom:24px;border-bottom:1px solid var(--border);padding-bottom:14px}
     .subnav-btn{padding:7px 16px;border-radius:8px;border:none;font-family:var(--font-body);font-size:13px;font-weight:500;cursor:pointer;color:var(--text2);background:transparent;transition:all .15s;display:flex;align-items:center;gap:6px}
@@ -177,18 +175,18 @@
     .empty-state{text-align:center;padding:48px 20px}
     .empty-state i{font-size:40px;color:var(--bg3);margin-bottom:12px}
     .empty-state p{color:var(--text3);font-size:14px}
-    /* stock input inline */
     .stock-input{width:60px;padding:4px 6px;border:1px solid var(--border2);border-radius:6px;background:var(--bg3);color:var(--cream);font-family:var(--font-body);font-size:13px;text-align:center;outline:none}
     .stock-input:focus{border-color:var(--gold)}
-    /* avail toggle */
     .avail-toggle{display:flex;align-items:center;gap:6px;cursor:pointer}
     .toggle-track{width:36px;height:20px;border-radius:10px;background:var(--bg3);border:1px solid var(--border2);position:relative;transition:background .2s}
     .toggle-track.on{background:var(--ok);border-color:var(--ok)}
     .toggle-thumb{position:absolute;top:2px;left:2px;width:14px;height:14px;border-radius:50%;background:#fff;transition:left .2s}
     .toggle-track.on .toggle-thumb{left:18px}
-    /* confirm modal */
     .confirm-msg{font-size:14px;color:var(--text2);margin-bottom:20px;line-height:1.6}
     .btn-del-confirm{flex:1;padding:10px;background:var(--danger);color:#fff;border:none;border-radius:var(--r);font-family:var(--font-body);font-size:13px;font-weight:700;cursor:pointer}
+    /* Supabase config banner */
+    .sb-banner{background:rgba(201,147,58,.12);border:1px solid var(--border2);border-radius:var(--r);padding:12px 16px;margin-bottom:20px;font-size:13px;color:var(--gold);display:flex;align-items:center;gap:10px}
+    .sb-banner i{font-size:16px;flex-shrink:0}
   </style>
 </head>
 <body>
@@ -227,7 +225,7 @@
         <div class="filters-row" id="filters-row">
           <button class="filter-chip active" onclick="setFilter('all',this)">Todos</button>
         </div>
-        <div id="products-area"></div>
+        <div id="products-area"><div class="loading"><div class="spinner"></div><p style="margin-top:12px">Cargando productos...</p></div></div>
       </div>
       <div class="sidebar" id="sidebar">
         <div class="cart-box">
@@ -266,7 +264,6 @@
 
 <!-- ===== ADMIN ===== -->
 <div class="view" id="view-admin">
-  <!-- LOGIN -->
   <div id="admin-login" class="login-wrap">
     <div class="login-card">
       <div class="login-logo">
@@ -287,7 +284,6 @@
     </div>
   </div>
 
-  <!-- PANEL -->
   <div id="admin-panel" style="display:none">
     <div class="admin-wrap">
       <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;flex-wrap:wrap;gap:12px">
@@ -296,6 +292,12 @@
           <p style="font-size:13px;color:var(--text3);margin-top:3px">Bienvenido, Administrador &nbsp;·&nbsp; Inédito KAFFE</p>
         </div>
         <button class="tbl-btn" onclick="doLogout()"><i class="fa fa-sign-out-alt"></i> Cerrar sesión</button>
+      </div>
+
+      <!-- Config banner si falta la URL de Supabase -->
+      <div class="sb-banner" id="sb-config-banner" style="display:none">
+        <i class="fa fa-database"></i>
+        <span>Configura tu URL de Supabase en el código: busca <strong>SUPABASE_URL</strong> y reemplaza el valor.</span>
       </div>
 
       <div class="kpi-grid">
@@ -310,7 +312,6 @@
         <button class="subnav-btn" id="subbtn-inventory" onclick="showSubview('inventory',this)"><i class="fa fa-layer-group"></i> Stock / Inventario</button>
       </div>
 
-      <!-- CATÁLOGO -->
       <div id="subview-catalog">
         <div class="table-wrap">
           <div class="table-head">
@@ -326,7 +327,6 @@
         </div>
       </div>
 
-      <!-- INVENTARIO -->
       <div id="subview-inventory" style="display:none">
         <div class="table-wrap">
           <div class="table-head">
@@ -345,75 +345,27 @@
   </div>
 </div>
 
-<!-- MODAL -->
 <div class="modal-overlay" id="modal" style="display:none" onclick="if(event.target===this)closeModal()">
   <div class="modal-box" id="modal-box"></div>
 </div>
 
 <script>
 // ============================================================
-//  CREDENCIALES DE ACCESO — CAMBIA AQUÍ TU CORREO Y CONTRASEÑA
+//  CONFIGURACIÓN SUPABASE
+//  ► Reemplaza SUPABASE_URL con tu URL del proyecto (https://xxxx.supabase.co)
+//  ► La clave anon/publishable ya está incluida abajo
+// ============================================================
+const SUPABASE_URL  = 'https://anhyjuxavknyohfprvfk.supabase.co/rest/v1/'; // ej: https://abcdef.supabase.co
+const SUPABASE_KEY  = 'sb_publishable_yQPwIhpvndcgjmUMzBm2vQ_h0dxUjRQ';
+const TABLE         = 'products';
+
+// ============================================================
+//  CREDENCIALES ADMIN
 // ============================================================
 const ADMIN_EMAIL    = 'admin@ineditokaffee.com';
 const ADMIN_PASSWORD = 'Kaffe2025!';
-// ============================================================
 
 const WA_NUMBER = '50242584634';
-
-// ============================================================
-//  PRODUCTOS — base de datos local (se guarda en localStorage)
-// ============================================================
-const INITIAL_PRODUCTS = [
-  {
-    id:'esencia-1L', name:'Nuestra Esencia', subtitle:'1 Litro',
-    description:'Perfecta para hacer tus bebidas de café y recetas favoritas desde la comodidad de tu casa o negocio. El perfecto sabor de café concentrado.',
-    price:65, category:'ESENCIA', available:true, stock:50,
-    emoji:'', note:null, variants:null, image:'especial.png'
-  },
-  {
-    id:'drinkin-8oz', name:'Drinkin Coffee', subtitle:'Individual — 8.5 oz',
-    description:'Esencia de café lista para llevar. El perfecto sabor en formato individual, ideal para disfrutar en cualquier momento.',
-    price:20, category:'ESENCIA', available:true, stock:120,
-    emoji:'', note:null, variants:null, image:'DRINKIN.png'
-  },
-  {
-    id:'inoka-1L', name:'INOKA Licor de Café', subtitle:'1 Litro',
-    description:'Digestivo ideal para después de tus comidas o en cocteles. Sabor intenso con amplia versatilidad para la elaboración de bebidas.',
-    price:240, category:'LICOR', available:true, stock:30,
-    emoji:'', note:null, variants:null, image:'Licor.png'
-  },
-  {
-    id:'inoka-500ml', name:'INOKA Licor de Café', subtitle:'500 ml',
-    description:'Digestivo ideal para después de tus comidas o en cocteles. Sabor intenso con amplia versatilidad para la elaboración de bebidas.',
-    price:165, category:'LICOR', available:true, stock:45,
-    emoji:'', note:null, variants:null, image:'Licor.png'
-  },
-  {
-    id:'cafe-catuai', name:'Café de Especialidad', subtitle:'Catuaí — Jutiapa',
-    description:'Sabor característico de Jutiapa con notas acarameladas y frutales. Molido ideal para métodos o cafetera casera. 100% Catuaí, 1,400 msnm.',
-    price:70, category:'CAFÉ', available:true, stock:60,
-    emoji:'', note:'Por libra', variants:['Molido','En grano'], image:'Cafeespeci.png'
-  },
-  {
-    id:'cafe-bourbon', name:'Café de Especialidad', subtitle:'Bourbon — Huehuetenango',
-    description:'Café de alto perfil, tostado medio, 1,760 msnm. Región Huehuetenango, proceso sostenible. Sabor complejo y cuerpo balanceado.',
-    price:80, category:'CAFÉ', available:true, stock:40,
-    emoji:'', note:'Por libra', variants:null, image:'Cafeespeci.png'
-  },
-  {
-    id:'coldbrew-regular', name:'Cold Brew', subtitle:'11 oz — individual',
-    description:'El perfecto pre-workout: cuerpo ligero y refrescante. Aumenta el metabolismo, mejora el estado de ánimo y posee antioxidantes. 100% natural.',
-    price:25, category:'COLD BREW', available:true, stock:200,
-    emoji:'', note:null, variants:['Original','Lavanda','Jamaica','Vainilla','Mocca Menta'], image:'cold.png'
-  },
-  {
-    id:'coldbrew-mini', name:'Cold Brew Mini Refri', subtitle:'Precio mayorista — mín. 50 u/mes',
-    description:'Ideal para negocios y mini refrigeradores. Mínimo de compra 50 unidades mensual. Perfecto para reventa o consumo de oficina.',
-    price:20, category:'COLD BREW', available:true, stock:500,
-    emoji:'', note:'c/u · mín. 50 uds/mes', variants:['Original','Lavanda','Jamaica','Vainilla','Mocca Menta'], image:'cold.png'
-  },
-];
-
 const CAT_OPTIONS = ['ESENCIA','LICOR','CAFÉ','COLD BREW','DRINK','MAIN','DESSERT'];
 
 // ---- State ----
@@ -423,12 +375,143 @@ let activeFilter = 'all';
 let selectedVariants = {};
 let adminLoggedIn = false;
 
-// ---- Persistence ----
-function saveProducts() { localStorage.setItem('kaffe_products', JSON.stringify(products)); }
-function loadProductsFromStorage() {
+// ---- Supabase REST helpers ----
+function sbUrl(path) { return SUPABASE_URL + '/rest/v1/' + path; }
+function sbHeaders(extra) {
+  return Object.assign({
+    'apikey': SUPABASE_KEY,
+    'Authorization': 'Bearer ' + SUPABASE_KEY,
+    'Content-Type': 'application/json',
+    'Prefer': 'return=representation'
+  }, extra || {});
+}
+function supabaseConfigured() {
+  return SUPABASE_URL && SUPABASE_URL !== 'REEMPLAZA_CON_TU_URL' && SUPABASE_URL.startsWith('https://');
+}
+
+async function sbFetch(method, path, body) {
+  if (!supabaseConfigured()) {
+    console.warn('Supabase URL no configurada — usando localStorage');
+    return null;
+  }
+  try {
+    const opts = { method, headers: sbHeaders() };
+    if (body) opts.body = JSON.stringify(body);
+    const res = await fetch(sbUrl(path), opts);
+    if (!res.ok) {
+      const err = await res.text();
+      console.error('Supabase error:', err);
+      return null;
+    }
+    const text = await res.text();
+    return text ? JSON.parse(text) : [];
+  } catch (e) {
+    console.error('Fetch error:', e);
+    return null;
+  }
+}
+
+// ---- CRUD Supabase ----
+async function dbLoadProducts() {
+  if (!supabaseConfigured()) return loadFromLocalStorage();
+  const data = await sbFetch('GET', TABLE + '?order=created_at.asc');
+  if (data === null) return loadFromLocalStorage();
+  products = data.map(dbRowToProduct);
+  buildFilters();
+  renderProducts();
+}
+
+async function dbInsertProduct(obj) {
+  if (!supabaseConfigured()) { products.push(obj); saveToLocalStorage(); return obj; }
+  const row = productToDbRow(obj);
+  const res = await sbFetch('POST', TABLE, row);
+  if (!res || !res[0]) { toast('Error al guardar en base de datos', 'error'); return null; }
+  const saved = dbRowToProduct(res[0]);
+  products.push(saved);
+  return saved;
+}
+
+async function dbUpdateProduct(id, obj) {
+  if (!supabaseConfigured()) {
+    const idx = products.findIndex(x => x.id === id);
+    if (idx >= 0) products[idx] = obj;
+    saveToLocalStorage();
+    return obj;
+  }
+  const row = productToDbRow(obj);
+  delete row.id;
+  const res = await sbFetch('PATCH', TABLE + '?id=eq.' + encodeURIComponent(id), row);
+  if (!res) { toast('Error al actualizar en base de datos', 'error'); return null; }
+  const idx = products.findIndex(x => x.id === id);
+  const updated = res[0] ? dbRowToProduct(res[0]) : obj;
+  if (idx >= 0) products[idx] = updated;
+  return updated;
+}
+
+async function dbDeleteProduct(id) {
+  if (!supabaseConfigured()) { products = products.filter(x => x.id !== id); saveToLocalStorage(); return true; }
+  const res = await sbFetch('DELETE', TABLE + '?id=eq.' + encodeURIComponent(id));
+  products = products.filter(x => x.id !== id);
+  return true;
+}
+
+async function dbPatchStock(id, stock, available) {
+  if (!supabaseConfigured()) { saveToLocalStorage(); return; }
+  await sbFetch('PATCH', TABLE + '?id=eq.' + encodeURIComponent(id), { stock, available });
+}
+
+// ---- Mapeo Supabase <-> JS ----
+function dbRowToProduct(r) {
+  return {
+    id: r.id,
+    name: r.name || '',
+    subtitle: r.subtitle || '',
+    description: r.description || '',
+    price: parseFloat(r.price) || 0,
+    category: r.category || '',
+    available: r.available !== false,
+    stock: parseInt(r.stock) || 0,
+    note: r.note || null,
+    variants: r.variants || null,
+    image: r.image || '',
+    emoji: r.emoji || ''
+  };
+}
+function productToDbRow(p) {
+  return {
+    id: p.id,
+    name: p.name,
+    subtitle: p.subtitle || null,
+    description: p.description || null,
+    price: p.price,
+    category: p.category,
+    available: p.available,
+    stock: p.stock,
+    note: p.note || null,
+    variants: p.variants || null,
+    image: p.image || null,
+    emoji: p.emoji || null
+  };
+}
+
+// ---- Fallback localStorage ----
+const INITIAL_PRODUCTS = [
+  {id:'esencia-1L',name:'Nuestra Esencia',subtitle:'1 Litro',description:'Perfecta para hacer tus bebidas de café y recetas favoritas desde la comodidad de tu casa o negocio.',price:65,category:'ESENCIA',available:true,stock:50,emoji:'',note:null,variants:null,image:'especial.png'},
+  {id:'drinkin-8oz',name:'Drinkin Coffee',subtitle:'Individual — 8.5 oz',description:'Esencia de café lista para llevar. El perfecto sabor en formato individual.',price:20,category:'ESENCIA',available:true,stock:120,emoji:'',note:null,variants:null,image:'DRINKIN.png'},
+  {id:'inoka-1L',name:'INOKA Licor de Café',subtitle:'1 Litro',description:'Digestivo ideal para después de tus comidas o en cocteles. Sabor intenso.',price:240,category:'LICOR',available:true,stock:30,emoji:'',note:null,variants:null,image:'Licor.png'},
+  {id:'inoka-500ml',name:'INOKA Licor de Café',subtitle:'500 ml',description:'Digestivo ideal para después de tus comidas o en cocteles. Sabor intenso.',price:165,category:'LICOR',available:true,stock:45,emoji:'',note:null,variants:null,image:'Licor.png'},
+  {id:'cafe-catuai',name:'Café de Especialidad',subtitle:'Catuaí — Jutiapa',description:'Sabor característico de Jutiapa con notas acarameladas y frutales. Molido ideal.',price:70,category:'CAFÉ',available:true,stock:60,emoji:'',note:'Por libra',variants:['Molido','En grano'],image:'Cafeespeci.png'},
+  {id:'cafe-bourbon',name:'Café de Especialidad',subtitle:'Bourbon — Huehuetenango',description:'Café de alto perfil, tostado medio. Región Huehuetenango, proceso sostenible.',price:80,category:'CAFÉ',available:true,stock:40,emoji:'',note:'Por libra',variants:null,image:'Cafeespeci.png'},
+  {id:'coldbrew-regular',name:'Cold Brew',subtitle:'11 oz — individual',description:'El perfecto pre-workout: cuerpo ligero y refrescante. 100% natural.',price:25,category:'COLD BREW',available:true,stock:200,emoji:'',note:null,variants:['Original','Lavanda','Jamaica','Vainilla','Mocca Menta'],image:'cold.png'},
+  {id:'coldbrew-mini',name:'Cold Brew Mini Refri',subtitle:'Precio mayorista — mín. 50 u/mes',description:'Ideal para negocios y mini refrigeradores. Mínimo de compra 50 unidades mensual.',price:20,category:'COLD BREW',available:true,stock:500,emoji:'',note:'c/u · mín. 50 uds/mes',variants:['Original','Lavanda','Jamaica','Vainilla','Mocca Menta'],image:'cold.png'}
+];
+function loadFromLocalStorage() {
   const raw = localStorage.getItem('kaffe_products');
   products = raw ? JSON.parse(raw) : JSON.parse(JSON.stringify(INITIAL_PRODUCTS));
+  buildFilters();
+  renderProducts();
 }
+function saveToLocalStorage() { localStorage.setItem('kaffe_products', JSON.stringify(products)); }
 
 // ---- Helpers ----
 const $ = id => document.getElementById(id);
@@ -439,12 +522,7 @@ function toast(msg, type='') {
   t._timer = setTimeout(() => t.classList.remove('show'), 3000);
 }
 function formatPrice(n) { return 'Q' + parseFloat(n).toFixed(2); }
-function genId() { return Date.now().toString(36) + Math.random().toString(36).slice(2,6); }
-function stockBadge(stock) {
-  if (stock === 0) return '<span class="badge badge-danger">Agotado</span>';
-  if (stock <= 10) return '<span class="badge badge-warn">Stock bajo (' + stock + ')</span>';
-  return '<span class="badge badge-ok">Disponible (' + stock + ')</span>';
-}
+function genId() { return 'prod_' + Date.now().toString(36) + Math.random().toString(36).slice(2,6); }
 
 // ---- Views ----
 function showView(v) {
@@ -457,7 +535,7 @@ function showView(v) {
 function scrollToCart() { $('sidebar')?.scrollIntoView({ behavior: 'smooth' }); }
 
 // ============================================================
-//  TIENDA — renderizado
+//  TIENDA
 // ============================================================
 function buildFilters() {
   const cats = [...new Set(products.filter(p => p.available).map(p => p.category))];
@@ -478,15 +556,13 @@ function setFilter(type, el) {
   renderProducts();
 }
 function prodImgHtml(p) {
-  if (p.image) {
-    return '<img src="' + p.image + '" alt="' + p.name + '" style="width:100%;height:100%;object-fit:cover" onerror="this.style.display=\'none\'">';
-  }
+  if (p.image) return '<img src="' + p.image + '" alt="' + p.name + '" style="width:100%;height:100%;object-fit:cover" onerror="this.style.display=\'none\'">';
   return '<span class="no-img" style="font-family:var(--font-display);font-size:28px;opacity:.35;letter-spacing:2px;color:var(--gold)">KAFFE</span>';
 }
 function renderProducts() {
   const q = ($('search-input').value || '').toLowerCase();
-const visible = products;
-const filtered = visible.filter(p => {    const matchQ = !q || p.name.toLowerCase().includes(q) || (p.description || '').toLowerCase().includes(q) || (p.category || '').toLowerCase().includes(q);
+  const filtered = products.filter(p => {
+    const matchQ = !q || p.name.toLowerCase().includes(q) || (p.description || '').toLowerCase().includes(q) || (p.category || '').toLowerCase().includes(q);
     const matchF = activeFilter === 'all' || p.category === activeFilter;
     return matchQ && matchF;
   });
@@ -506,6 +582,8 @@ const filtered = visible.filter(p => {    const matchQ = !q || p.name.toLowerCas
     const stockAmt = p.stock;
     const stockLabel = stockAmt === 0 ? 'Agotado' : stockAmt <= 10 ? 'Últimas ' + stockAmt : stockAmt > 99 ? 'Disponible' : stockAmt + ' uds';
     const stockClass = stockAmt === 0 ? 'badge-danger' : stockAmt <= 10 ? 'badge-warn' : 'badge-ok';
+    const showCard = p.available || stockAmt > 0;
+    if (!showCard) return '';
     return '<div class="prod-card ' + (stockAmt === 0 ? 'out-of-stock' : '') + '">'
       + '<div class="prod-img">' + prodImgHtml(p) + '<span class="stock-badge ' + stockClass + '">' + stockLabel + '</span></div>'
       + '<div class="prod-body"><div class="prod-cat">' + p.category + '</div>'
@@ -520,7 +598,6 @@ const filtered = visible.filter(p => {    const matchQ = !q || p.name.toLowerCas
   }).join('') + '</div>';
   $('products-area').innerHTML = html;
 }
-
 function selectVariant(id, variant) { selectedVariants[id] = variant; renderProducts(); }
 
 // ============================================================
@@ -583,7 +660,7 @@ function sendWhatsApp() {
 }
 
 // ============================================================
-//  ADMIN — LOGIN LOCAL
+//  ADMIN
 // ============================================================
 function initAdmin() {
   if (adminLoggedIn) { showAdminPanel(); return; }
@@ -615,32 +692,15 @@ function doLogout() {
 function showAdminPanel() {
   $('admin-login').style.display = 'none';
   $('admin-panel').style.display = 'block';
+  if (!supabaseConfigured()) $('sb-config-banner').style.display = 'flex';
   renderCatalog();
 }
-
-// ============================================================
-//  ADMIN — CATÁLOGO
-// ============================================================
-
-  // Actualiza disponibilidad automáticamente
 function updateKPIs() {
-
-  products.forEach(p => {
-    p.available = p.stock > 0;
-  });
-
+  products.forEach(p => { if (p.stock === 0) p.available = false; });
   $('kpi-prods').textContent = products.length;
-
-  $('kpi-avail').textContent =
-    products.filter(p => p.available).length;
-
-  $('kpi-low').textContent =
-    products.filter(p => p.stock <= 10 && p.stock > 0).length;
-
-  $('kpi-out').textContent =
-    products.filter(p => p.stock === 0).length;
-
-  saveProducts();
+  $('kpi-avail').textContent = products.filter(p => p.available).length;
+  $('kpi-low').textContent = products.filter(p => p.stock <= 10 && p.stock > 0).length;
+  $('kpi-out').textContent = products.filter(p => p.stock === 0).length;
 }
 function renderCatalog() {
   updateKPIs();
@@ -651,7 +711,7 @@ function renderCatalog() {
   $('catalog-tbody').innerHTML = products.map(p => {
     const img = p.image
       ? '<img src="' + p.image + '" style="width:40px;height:40px;object-fit:cover;border-radius:6px" onerror="this.style.display=\'none\'">'
-      : '<span style="font-family:var(--font-display);font-size:14px;opacity:.4;color:var(--gold);letter-spacing:1px">K</span>';
+      : '<span style="font-family:var(--font-display);font-size:14px;opacity:.4;color:var(--gold)">K</span>';
     const availToggle = `<label class="avail-toggle" onclick="toggleAvailable('${p.id}')">
       <div class="toggle-track ${p.available ? 'on' : ''}"><div class="toggle-thumb"></div></div>
       <span style="font-size:12px;color:var(--text2)">${p.available ? 'Visible' : 'Oculto'}</span>
@@ -665,18 +725,18 @@ function renderCatalog() {
       <td>${availToggle}</td>
       <td><span class="badge ${stockClass}">${p.stock} uds</span></td>
       <td class="tbl-actions">
-        <button class="tbl-btn" onclick="openProductModal('${p.id}')"> Editar</button>
-        <button class="tbl-btn del" onclick="confirmDelete('${p.id}')"> Eliminar</button>
+        <button class="tbl-btn" onclick="openProductModal('${p.id}')">Editar</button>
+        <button class="tbl-btn del" onclick="confirmDelete('${p.id}')">Eliminar</button>
       </td>
     </tr>`;
   }).join('');
 }
 
-function toggleAvailable(id) {
+async function toggleAvailable(id) {
   const p = products.find(x => x.id === id);
   if (!p) return;
   p.available = !p.available;
-  saveProducts();
+  await dbPatchStock(id, p.stock, p.available);
   renderCatalog();
   buildFilters();
   renderProducts();
@@ -695,9 +755,8 @@ function confirmDelete(id) {
     </div>`;
   $('modal').style.display = 'flex';
 }
-function deleteProduct(id) {
-  products = products.filter(x => x.id !== id);
-  saveProducts();
+async function deleteProduct(id) {
+  await dbDeleteProduct(id);
   closeModal();
   renderCatalog();
   buildFilters();
@@ -705,9 +764,6 @@ function deleteProduct(id) {
   toast('Producto eliminado', 'error');
 }
 
-// ============================================================
-//  ADMIN — MODAL PRODUCTO (crear / editar)
-// ============================================================
 function openProductModal(id) {
   const p = id ? (products.find(x => x.id === id) || {}) : {};
   const isEdit = !!id;
@@ -720,7 +776,7 @@ function openProductModal(id) {
       <input type="text" id="m-sub" value="${p.subtitle || ''}" placeholder="Ej: 1 Litro"/></div>
     <div class="two-col">
       <div class="form-group"><label>Categoría *</label>
-        <select id="m-type">${CAT_OPTIONS.map(t => '<option value="' + t + '" ' + ((p.category || '') === t ? 'selected' : '') + '>' + t + '</option>').join('')}</select></div>
+        <select id="m-type">${CAT_OPTIONS.map(t => '<option value="' + t + '" ' + ((p.category||'')=== t?'selected':'') + '>' + t + '</option>').join('')}</select></div>
       <div class="form-group"><label>Precio (Q) *</label>
         <input type="number" id="m-price" value="${p.price || ''}" min="0" step="0.01"/></div>
     </div>
@@ -745,12 +801,12 @@ function openProductModal(id) {
       </select></div>
     <div class="modal-actions">
       <button class="btn-cancel" onclick="closeModal()">Cancelar</button>
-      <button class="btn-save" onclick="saveProduct('${id || ''}')"> Guardar</button>
+      <button class="btn-save" onclick="saveProduct('${id || ''}')">Guardar</button>
     </div>`;
   $('modal').style.display = 'flex';
 }
 
-function saveProduct(id) {
+async function saveProduct(id) {
   const name = $('m-name')?.value.trim();
   const price = parseFloat($('m-price')?.value);
   const stock = parseInt($('m-stock')?.value);
@@ -771,13 +827,13 @@ function saveProduct(id) {
     emoji: $('m-emoji')?.value.trim() || '',
     available: $('m-available')?.value === 'true',
   };
+  const saveBtn = document.querySelector('.btn-save');
+  if (saveBtn) { saveBtn.textContent = 'Guardando...'; saveBtn.disabled = true; }
   if (id) {
-    const idx = products.findIndex(x => x.id === id);
-    if (idx >= 0) products[idx] = obj;
+    await dbUpdateProduct(id, obj);
   } else {
-    products.push(obj);
+    await dbInsertProduct(obj);
   }
-  saveProducts();
   closeModal();
   renderCatalog();
   buildFilters();
@@ -785,9 +841,7 @@ function saveProduct(id) {
   toast(id ? 'Producto actualizado' : 'Producto creado', 'success');
 }
 
-// ============================================================
-//  ADMIN — INVENTARIO / STOCK
-// ============================================================
+// ---- Inventario ----
 function renderInventoryTable() {
   if (!products.length) {
     $('inventory-tbody').innerHTML = '<tr><td colspan="5" style="text-align:center;padding:24px;color:var(--text3)">Sin productos</td></tr>';
@@ -802,32 +856,36 @@ function renderInventoryTable() {
       <td><span class="badge ${stockClass}">${p.stock === 0 ? 'Agotado' : p.stock <= 10 ? 'Stock bajo' : 'Disponible'}</span></td>
       <td>
         <div class="stock-ctrl">
-          <button class="stock-btn" onclick="adjustStock('${p.id}',-5)" title="-5">-5</button>
-          <button class="stock-btn" onclick="adjustStock('${p.id}',-1)" title="-1">−</button>
-          <button class="stock-btn" onclick="adjustStock('${p.id}',1)" title="+1">+</button>
-          <button class="stock-btn" onclick="adjustStock('${p.id}',10)" title="+10">+10</button>
-          <button class="stock-btn" onclick="adjustStock('${p.id}',50)" title="+50" style="font-size:11px">+50</button>
+          <button class="stock-btn" onclick="adjustStock('${p.id}',-5)">-5</button>
+          <button class="stock-btn" onclick="adjustStock('${p.id}',-1)">−</button>
+          <button class="stock-btn" onclick="adjustStock('${p.id}',1)">+</button>
+          <button class="stock-btn" onclick="adjustStock('${p.id}',10)">+10</button>
+          <button class="stock-btn" onclick="adjustStock('${p.id}',50)" style="font-size:11px">+50</button>
         </div>
       </td>
     </tr>`;
   }).join('');
 }
-function setStockDirect(id, val) {
+
+async function setStockDirect(id, val) {
   const p = products.find(x => x.id === id);
   if (!p) return;
   const n = parseInt(val);
   p.stock = isNaN(n) || n < 0 ? 0 : n;
-  saveProducts();
+  p.available = p.stock > 0;
+  await dbPatchStock(id, p.stock, p.available);
   updateKPIs();
   renderProducts();
   const el = $('si-' + id);
   if (el) el.value = p.stock;
 }
-function adjustStock(id, delta) {
+
+async function adjustStock(id, delta) {
   const p = products.find(x => x.id === id);
   if (!p) return;
   p.stock = Math.max(0, p.stock + delta);
-  saveProducts();
+  p.available = p.stock > 0;
+  await dbPatchStock(id, p.stock, p.available);
   updateKPIs();
   renderProducts();
   const el = $('si-' + id);
@@ -835,22 +893,18 @@ function adjustStock(id, delta) {
   toast(p.name + ' → ' + p.stock + ' uds', delta > 0 ? 'success' : '');
 }
 
-// ---- Subvistas admin ----
 function showSubview(view, btn) {
   ['catalog', 'inventory'].forEach(v => { $('subview-' + v).style.display = v === view ? 'block' : 'none'; });
   document.querySelectorAll('.subnav-btn').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
   if (view === 'inventory') renderInventoryTable();
 }
-
 function closeModal() { $('modal').style.display = 'none'; }
 
 // ============================================================
 //  INIT
 // ============================================================
-loadProductsFromStorage();
-buildFilters();
-renderProducts();
+dbLoadProducts();
 </script>
 </body>
 </html>
